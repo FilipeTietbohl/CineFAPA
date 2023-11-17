@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CineFAPA</string>
+    <string name="cinefapa">CINEFAPA</string>
+    <string name="fundo_pipocas">Fundo_pipocas</string>
+    <string name="registrar">Registrar</string>
+    <string name="logar">Logar</string>
+    <string name="icone_cinefapa">Icone_cinefapa</string>
+    <string name="background_fotinho">Background_fotinho</string>
+</resources>
