@@ -40,7 +40,7 @@
         tools:ignore="MissingConstraints,UselessParent">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/logar"
             style="@style/Widget.Material3.Button"
             android:layout_width="189dp"
             android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
             android:backgroundTint="@color/black"/>
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/registrar"
             style="@style/Widget.Material3.Button.ElevatedButton.Icon"
             android:layout_width="189dp"
             android:layout_height="wrap_content"

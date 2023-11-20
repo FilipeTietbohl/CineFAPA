@@ -6,4 +6,8 @@
     <string name="logar">Logar</string>
     <string name="icone_cinefapa">Icone_cinefapa</string>
     <string name="background_fotinho">Background_fotinho</string>
+    <string name="senha">Senha</string>
+    <string name="email">Email</string>
+    <string name="button">Button</string>
+    <string name="SenhaTela2">SenhaTela2</string>
 </resources>
