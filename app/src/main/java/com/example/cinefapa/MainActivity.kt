@@ -10,13 +10,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val logar = findViewById<Button>(R.id.logar)
-        logar.setOnClickListener {
-            irParaTelaDeLogin()
-        }
+
     }
-    private fun irParaTelaDeLogin() {
-        val telaLogin= Intent(this, TelaLogin::class.java)
-        startActivity(telaLogin)
-    }
+
+
 }

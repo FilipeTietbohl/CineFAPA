@@ -6,59 +6,90 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:id="@+id/linearLayout3"
-        android:layout_width="391dp"
-        android:layout_height="675dp"
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_left_imagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints,VisualLintBounds"
-        tools:layout_editor_absoluteY="-1dp">
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/background"
-            android:contentDescription="@string/background_fotinho" />
-    </LinearLayout>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_right_imagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_percent="1.0" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="378dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="8dp"
-        android:background="#FFFFFF"
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_bottom_imagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.90191084" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_chao_tela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="1.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_topo_tela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="1dp" />
+
+    <ImageView
+        android:id="@+id/cinefapa_tela1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/background"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/guideline_bottom_imagem"
+        app:layout_constraintDimensionRatio="1:1.8"
+        app:layout_constraintEnd_toEndOf="@+id/guideline_right_imagem"
+        app:layout_constraintStart_toEndOf="@+id/guideline_left_imagem"
+        app:layout_constraintStart_toStartOf="@+id/guideline_topo_tela"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_topo_tela" />
+
+    <Button
+        android:id="@+id/botao_registrar_tela1"
+        android:layout_width="141dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/botao_registrar_tela1"
+        android:text="@string/tela_inicial_botao_registrar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/botao_login_tela1"
+        app:layout_constraintTop_toBottomOf="@+id/cinefapa_tela1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/botao_login_tela1"
+        android:layout_width="141dp"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/botao_login_tela1"
+        android:text="@string/tela_inicial_botao_logar"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/botao_registrar_tela1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
-        tools:ignore="MissingConstraints,UselessParent">
-
-        <Button
-            android:id="@+id/logar"
-            style="@style/Widget.Material3.Button"
-            android:layout_width="189dp"
-            android:layout_height="wrap_content"
-            android:text="@string/logar"
-            android:backgroundTint="@color/black"/>
-
-        <Button
-            android:id="@+id/registrar"
-            style="@style/Widget.Material3.Button.ElevatedButton.Icon"
-            android:layout_width="189dp"
-            android:layout_height="wrap_content"
-            android:accessibilityLiveRegion="none"
-            android:text="@string/registrar"
-            app:iconPadding="20dp"
-            app:iconTint="#000000"
-            android:textColor="@color/black"
-            tools:ignore="VisualLintBounds" />
-
-    </LinearLayout>
+        app:layout_constraintTop_toBottomOf="@+id/cinefapa_tela1"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
