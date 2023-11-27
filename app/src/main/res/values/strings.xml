@@ -13,4 +13,8 @@
     <string name="tela_login_email">Email</string>
     <string name="tela_inicial_botao_logar">Logar</string>
     <string name="tela_inicial_botao_registrar">Registrar</string>
+    <string name="filme1">CORALINE E O MUNDO SECRETO</string>
+    <string name="filme2">BOB ESPONJA O FILME</string>
+    <string name="filme3">OS SIMPSONS O FILME</string>
+    <string name="comprar">COMPRAR</string>
 </resources>

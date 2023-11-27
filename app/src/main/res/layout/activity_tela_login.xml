@@ -23,14 +23,14 @@
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="411dp"
-        android:layout_height="730dp"
+        android:layout_width="423dp"
+        android:layout_height="733dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="0dp">
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/textView3"
@@ -46,37 +46,40 @@
             android:id="@+id/LoginEmail"
             android:layout_width="350dp"
             android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
             android:layout_marginTop="25dp"
             android:layout_marginBottom="25dp"
             android:autofillHints=""
-            android:hint="@string/email"
+            android:background="@drawable/borda_inputs"
+            android:hint="@string/tela_login_email"
             android:inputType="textEmailAddress"
             android:minHeight="48dp"
-            android:layout_marginLeft="25dp"
             tools:ignore="LabelFor" />
 
         <EditText
             android:id="@+id/LoginSenha"
             android:layout_width="350dp"
             android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
             android:layout_marginTop="25dp"
             android:layout_marginBottom="25dp"
             android:autofillHints=""
+            android:background="@drawable/borda_inputs"
             android:ems="10"
             android:hint="Senha"
-            android:layout_marginLeft="25dp"
             android:inputType="textPassword"
             android:minHeight="48dp" />
 
         <Button
-            android:id="@+id/tela2_login"
+            android:id="@+id/botao_tela2_registrar"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
             android:layout_marginTop="25dp"
+            android:background="@drawable/botao_login_tela1"
             android:backgroundTint="@color/black"
             android:minHeight="48dp"
-            android:text="LOG IN"
+            android:text="logar"
             android:textColor="@color/white" />
     </LinearLayout>
 

@@ -16,6 +16,15 @@
             android:name=".telaIngresso"
             android:exported="false" />
         <activity
+            android:name=".telaFilmes"
+            android:exported="false" />
+        <activity
+            android:name=".telaLogin"
+            android:exported="false" />
+        <activity
+            android:name=".telaRegistro"
+            android:exported="false" />
+        <activity
             android:name=".telaExibicao"
             android:exported="false" />
         <activity
