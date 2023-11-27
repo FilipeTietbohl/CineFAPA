@@ -9,11 +9,11 @@ class telaLogin : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val botaoLogarTela2 = findViewById<Button>(R.id.botao_tela2_registrar)
+        val botaoLogarTela2 = findViewById<Button>(R.id.botao_tela2_logar)
 
 
         botaoLogarTela2.setOnClickListener {
-            val intent = Intent(this, telaLogin::class.java)
+            val intent = Intent(this, telaFilmes::class.java)
             startActivity(intent)
         }
 

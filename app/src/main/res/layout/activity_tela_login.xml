@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".TelaLogin" >
+    tools:context=".telaLogin" >
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -71,7 +71,7 @@
             android:minHeight="48dp" />
 
         <Button
-            android:id="@+id/botao_tela2_registrar"
+            android:id="@+id/botao_tela2_logar"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
@@ -79,7 +79,7 @@
             android:background="@drawable/botao_login_tela1"
             android:backgroundTint="@color/black"
             android:minHeight="48dp"
-            android:text="logar"
+            android:text="@string/tela_inicial_botao_logar"
             android:textColor="@color/white" />
     </LinearLayout>
 

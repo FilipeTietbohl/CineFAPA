@@ -13,7 +13,7 @@ class telaRegistro : AppCompatActivity() {
         val botaoRegistrarTela2 = findViewById<Button>(R.id.botao_tela2_registrar)
 
         botaoRegistrarTela2.setOnClickListener {
-            val intent = Intent(this, telaLogin::class.java)
+            val intent = Intent(this, telaFilmes::class.java)
             startActivity(intent)
         }
     }
