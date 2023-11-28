@@ -15,13 +15,13 @@ class MainActivity : AppCompatActivity() {
 
 
         botaoLoginTela1.setOnClickListener {
-            val intent = Intent(this, telaLogin::class.java)
-            startActivity(intent)
+            val irParaTelaLogar = Intent(this, TelaLogin::class.java)
+            startActivity(irParaTelaLogar)
         }
 
         botaoRegistrarTela1.setOnClickListener {
-            val intent = Intent(this, telaRegistro::class.java)
-            startActivity(intent)
+            val irParaTelaRegistrar = Intent(this, TelaRegistro::class.java)
+            startActivity(irParaTelaRegistrar)
         }
 
 

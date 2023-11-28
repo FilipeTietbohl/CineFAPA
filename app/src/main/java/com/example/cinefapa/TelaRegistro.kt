@@ -5,17 +5,16 @@ import android.os.Bundle
 import android.content.Intent
 import android.widget.Button
 
-class telaLogin : AppCompatActivity() {
+class TelaRegistro : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_tela_registro)
 
-        val botaoLogarTela2 = findViewById<Button>(R.id.botao_tela2_logar)
+        val botaoRegistrarTela2 = findViewById<Button>(R.id.botao_tela2_registrar)
 
-
-        botaoLogarTela2.setOnClickListener {
+        botaoRegistrarTela2.setOnClickListener {
             val intent = Intent(this, telaFilmes::class.java)
             startActivity(intent)
         }
-
     }
 }

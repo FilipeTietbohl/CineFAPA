@@ -7,49 +7,15 @@
     tools:context=".telaIngresso">
 
     <TextView
-        android:id="@+id/textView31"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="1"
-        tools:layout_editor_absoluteX="313dp"
-        tools:layout_editor_absoluteY="369dp" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="26dp"
-        android:layout_height="17dp"
-        android:background="@drawable/ingresso_maisoumenos"
-        android:text="+"
-        tools:layout_editor_absoluteX="332dp"
-        tools:layout_editor_absoluteY="369dp" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="26dp"
-        android:layout_height="17dp"
-        android:background="@drawable/ingresso_maisoumenos"
-        android:text="+"
-        tools:layout_editor_absoluteX="332dp"
-        tools:layout_editor_absoluteY="267dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="26dp"
-        android:layout_height="17dp"
-        android:background="@drawable/ingresso_maisoumenos"
-        android:text="-"
-        tools:layout_editor_absoluteX="272dp"
-        tools:layout_editor_absoluteY="369dp" />
-
-    <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
         android:text="@string/app_name"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="41dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView13"
@@ -65,21 +31,23 @@
         android:layout_width="358dp"
         android:layout_height="479dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/layout_resumo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="137dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
     <TextView
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:text="@string/filme1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="163dp" />
+        app:layout_constraintTop_toTopOf="@+id/textView14" />
 
     <TextView
         android:id="@+id/textView16"
@@ -104,17 +72,19 @@
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="38dp"
         android:text="INTEIRA"
-        tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="262dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
     <TextView
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="R$ 31.00"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="284dp" />
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
     <TextView
         android:id="@+id/textView20"
@@ -122,16 +92,17 @@
         android:layout_height="wrap_content"
         android:text="Ingresso R$ 27.73 + taxas R$ 3.27"
         android:textSize="10sp"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="315dp" />
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
     <TextView
         android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
         android:text="MEIA ENTRADA"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="369dp" />
+        app:layout_constraintStart_toStartOf="@+id/textView20"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
     <TextView
         android:id="@+id/textView22"
@@ -139,27 +110,29 @@
         android:layout_height="wrap_content"
         android:text="R$ 17.00"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView21"
         app:layout_constraintTop_toBottomOf="@+id/textView21"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="45dp" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="Ingresso R$ 13.73 + taxas R$ 3.27"
         android:textSize="10sp"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="420dp" />
+        app:layout_constraintStart_toStartOf="@+id/textView22"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
 
     <TextView
         android:id="@+id/textView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="*Criança | adolescente (menor de 15 anos);"
         android:textSize="10sp"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="444dp" />
+        app:layout_constraintStart_toStartOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
     <TextView
         android:id="@+id/textView25"
@@ -167,8 +140,8 @@
         android:layout_height="wrap_content"
         android:text="*Doador de sangue;"
         android:textSize="10sp"
-        app:layout_constraintTop_toBottomOf="@+id/textView24"
-        tools:layout_editor_absoluteX="44dp" />
+        app:layout_constraintStart_toStartOf="@+id/textView24"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
 
     <TextView
         android:id="@+id/textView26"
@@ -176,8 +149,8 @@
         android:layout_height="wrap_content"
         android:text="*Idoso (a partir de 60 anos);"
         android:textSize="10sp"
-        app:layout_constraintTop_toBottomOf="@+id/textView25"
-        tools:layout_editor_absoluteX="44dp" />
+        app:layout_constraintStart_toStartOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
 
     <TextView
         android:id="@+id/textView27"
@@ -185,8 +158,39 @@
         android:layout_height="wrap_content"
         android:text="*Estudante (com comprovante de matrícula atual);"
         android:textSize="10sp"
-        app:layout_constraintTop_toBottomOf="@+id/textView26"
-        tools:layout_editor_absoluteX="44dp" />
+        app:layout_constraintStart_toStartOf="@+id/textView26"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="26dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/ingresso_maisoumenos"
+        android:text="+"
+        app:layout_constraintStart_toEndOf="@+id/textView31"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:text="1"
+        app:layout_constraintEnd_toEndOf="@+id/textView30"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="26dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ingresso_maisoumenos"
+        android:text="+"
+        app:layout_constraintStart_toEndOf="@+id/textView30"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
     <TextView
         android:id="@+id/textView28"
@@ -194,8 +198,8 @@
         android:layout_height="wrap_content"
         android:text="*Jovem de baixa renda (ID Jovem);"
         android:textSize="10sp"
-        app:layout_constraintTop_toBottomOf="@+id/textView27"
-        tools:layout_editor_absoluteX="46dp" />
+        app:layout_constraintStart_toStartOf="@+id/textView27"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
 
     <TextView
         android:id="@+id/textView29"
@@ -207,34 +211,51 @@
         app:layout_constraintEnd_toEndOf="@+id/textView14"
         app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="@+id/textView14"
-        tools:layout_editor_absoluteY="513dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="26dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/ingresso_maisoumenos"
+        android:text="-"
+        app:layout_constraintEnd_toStartOf="@+id/textView31"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="323dp"
-        android:layout_height="42dp"
+        android:layout_height="48dp"
         android:background="@drawable/botao_comprar_tela_filmes"
         android:text="CONTINUAR"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="680dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintVertical_bias="0.234" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="26dp"
         android:layout_height="17dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="10dp"
         android:background="@drawable/ingresso_maisoumenos"
         android:text="-"
-        tools:layout_editor_absoluteX="272dp"
-        tools:layout_editor_absoluteY="267dp" />
+        app:layout_constraintEnd_toStartOf="@+id/textView30"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
     <TextView
         android:id="@+id/textView30"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="296dp"
+        android:layout_marginBottom="100dp"
         android:text="1"
-        tools:layout_editor_absoluteX="313dp"
-        tools:layout_editor_absoluteY="267dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/button5"
+        app:layout_constraintStart_toStartOf="@+id/textView14" />
 
     <TextView
         android:id="@+id/textView32"
@@ -242,7 +263,8 @@
         android:layout_height="wrap_content"
         android:text="R$ 48.00"
         android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView14"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="553dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
 </androidx.constraintlayout.widget.ConstraintLayout>

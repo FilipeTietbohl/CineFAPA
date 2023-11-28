@@ -5,14 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".telaLogin" >
+    tools:context=".TelaLogin" >
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="423dp" />
+        app:layout_constraintGuide_begin="423dp"
+        tools:ignore="VisualLintBounds" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -30,7 +31,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints">
+        tools:ignore="MissingConstraints,VisualLintBounds">
 
         <TextView
             android:id="@+id/textView3"
@@ -39,14 +40,15 @@
             android:layout_marginStart="25dp"
             android:layout_marginTop="50dp"
             android:layout_marginBottom="29dp"
-            android:text="Logar"
-            android:textSize="30dp" />
+            android:text="@string/logar"
+            android:textSize="30sp"
+            tools:ignore="TextSizeCheck" />
 
         <EditText
             android:id="@+id/LoginEmail"
             android:layout_width="350dp"
             android:layout_height="50dp"
-            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
             android:layout_marginTop="25dp"
             android:layout_marginBottom="25dp"
             android:autofillHints=""
@@ -60,13 +62,13 @@
             android:id="@+id/LoginSenha"
             android:layout_width="350dp"
             android:layout_height="50dp"
-            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
             android:layout_marginTop="25dp"
             android:layout_marginBottom="25dp"
             android:autofillHints=""
             android:background="@drawable/borda_inputs"
             android:ems="10"
-            android:hint="Senha"
+            android:hint="@string/senha"
             android:inputType="textPassword"
             android:minHeight="48dp" />
 
@@ -74,13 +76,14 @@
             android:id="@+id/botao_tela2_logar"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
             android:layout_marginTop="25dp"
             android:background="@drawable/botao_login_tela1"
             android:backgroundTint="@color/black"
             android:minHeight="48dp"
             android:text="@string/tela_inicial_botao_logar"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"
+            tools:ignore="VisualLintButtonSize" />
     </LinearLayout>
 
 

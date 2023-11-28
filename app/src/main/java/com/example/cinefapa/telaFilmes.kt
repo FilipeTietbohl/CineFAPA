@@ -16,16 +16,17 @@ class telaFilmes : AppCompatActivity() {
 
 
         botaoComprarFilme1.setOnClickListener {
-            val intent = Intent(this, telaFilmes::class.java)
-            startActivity(intent)
+            val irParaTelaIngressoFilme1 = Intent(this, telaIngresso::class.java)
+            startActivity(irParaTelaIngressoFilme1)
+            
         }
         botaoComprarFilme2.setOnClickListener {
-            val intent = Intent(this, telaFilmes::class.java)
-            startActivity(intent)
+            val irParaTelaIngressoFilme2 = Intent(this, telaIngresso::class.java)
+            startActivity(irParaTelaIngressoFilme2)
         }
         botaoComprarFilme3.setOnClickListener {
-            val intent = Intent(this, telaFilmes::class.java)
-            startActivity(intent)
+            val irParaTelaIngressoFilme3 = Intent(this, telaIngresso::class.java)
+            startActivity(irParaTelaIngressoFilme3)
         }
     }
 }

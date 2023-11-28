@@ -56,7 +56,8 @@
         app:layout_constraintEnd_toEndOf="@+id/guideline_right_imagem"
         app:layout_constraintStart_toEndOf="@+id/guideline_left_imagem"
         app:layout_constraintStart_toStartOf="@+id/guideline_topo_tela"
-        app:layout_constraintTop_toBottomOf="@+id/guideline_topo_tela" />
+        app:layout_constraintTop_toBottomOf="@+id/guideline_topo_tela"
+        tools:ignore="VisualLintBounds" />
 
     <Button
         android:id="@+id/botao_registrar_tela1"
@@ -78,15 +79,13 @@
         android:layout_width="141dp"
         android:layout_height="48dp"
         android:layout_margin="16dp"
-        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/botao_login_tela1"
         android:text="@string/tela_inicial_botao_logar"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/botao_registrar_tela1"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline_left_imagem"
         app:layout_constraintTop_toBottomOf="@+id/cinefapa_tela1"
         app:layout_constraintVertical_bias="1.0" />
 

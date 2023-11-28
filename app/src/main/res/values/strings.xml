@@ -17,4 +17,6 @@
     <string name="filme2">BOB ESPONJA O FILME</string>
     <string name="filme3">OS SIMPSONS O FILME</string>
     <string name="comprar">COMPRAR</string>
+    <string name="senha">Senha</string>
+    <string name="logar">Logar</string>
 </resources>
