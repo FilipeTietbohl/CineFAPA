@@ -6,4 +6,228 @@
     android:layout_height="match_parent"
     tools:context=".TelaPagamento">
 
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECIONE COMO DESEJA PAGAR"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/app_name"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="166dp"
+        android:layout_height="248dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/pagamento"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="356dp"
+        android:layout_height="301dp"
+        android:layout_marginTop="436dp"
+        android:background="@drawable/layout_resumo"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="149dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/tela_filmes_exibicao_titulo_filme1"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="01/12/2023 - 21H"
+        app:layout_constraintStart_toStartOf="@+id/textView33"
+        app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="SALA: 01"
+        app:layout_constraintStart_toStartOf="@+id/textView34"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="ASSENTO: A3, A4"
+        app:layout_constraintStart_toStartOf="@+id/textView36"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:text="PAGAMENTO"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView49" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="CARTÃO DE CRÉDITO"
+        app:layout_constraintStart_toStartOf="@+id/textView53"
+        app:layout_constraintTop_toBottomOf="@+id/textView51" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="CARTÃO DE DÉBITO"
+        app:layout_constraintStart_toStartOf="@+id/textView54"
+        app:layout_constraintTop_toBottomOf="@+id/textView52" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="APPLE PAY"
+        app:layout_constraintStart_toStartOf="@+id/textView55"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="PIX"
+        app:layout_constraintStart_toStartOf="@+id/textView56"
+        app:layout_constraintTop_toBottomOf="@+id/textView54" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="36dp"
+        android:text="PAGAR NO LOCAL"
+        app:layout_constraintBottom_toBottomOf="@+id/textView49"
+        app:layout_constraintStart_toStartOf="@+id/textView49" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="356dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/botao_comprar_tela_filmes"
+        android:text="PAGAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView49"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="355dp"
+        android:layout_height="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView49"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView49"
+        app:layout_constraintTop_toBottomOf="@+id/textView52"
+        app:srcCompat="@drawable/literalmente_uma_linha" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="355dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView49"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView49"
+        app:layout_constraintTop_toBottomOf="@+id/textView52"
+        app:srcCompat="@drawable/literalmente_uma_linha" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="355dp"
+        android:layout_height="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView49"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView49"
+        app:layout_constraintTop_toBottomOf="@+id/textView54"
+        app:srcCompat="@drawable/literalmente_uma_linha" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="355dp"
+        android:layout_height="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView49"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView49"
+        app:layout_constraintTop_toBottomOf="@+id/textView55"
+        app:srcCompat="@drawable/literalmente_uma_linha" />
+
+    <CheckBox
+        android:id="@+id/Check_credito"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="148dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        app:layout_constraintStart_toEndOf="@+id/textView52" />
+
+    <CheckBox
+        android:id="@+id/Check_pagar_local"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView49"
+        app:layout_constraintEnd_toEndOf="@+id/textView49" />
+
+    <CheckBox
+        android:id="@+id/Check_pix"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="68dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView49"
+        app:layout_constraintEnd_toEndOf="@+id/textView49" />
+
+    <CheckBox
+        android:id="@+id/Check_apple"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="@+id/Check_pix" />
+
+    <CheckBox
+        android:id="@+id/Check_debito"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/Check_apple" />
 </androidx.constraintlayout.widget.ConstraintLayout>

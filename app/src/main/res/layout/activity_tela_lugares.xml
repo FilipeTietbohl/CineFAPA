@@ -7,7 +7,7 @@
     tools:context=".TelaLugares">
 
     <TextView
-        android:id="@+id/Layout"
+        android:id="@+id/continuar_tela_lugares"
         android:layout_width="358dp"
         android:layout_height="479dp"
         android:layout_marginStart="16dp"
@@ -139,7 +139,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:text="F"
-        app:layout_constraintStart_toStartOf="@+id/Layout"
+        app:layout_constraintStart_toStartOf="@+id/continuar_tela_lugares"
         app:layout_constraintTop_toTopOf="@+id/F1" />
 
     <TextView
@@ -171,7 +171,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/Layout" />
+        app:layout_constraintTop_toTopOf="@+id/continuar_tela_lugares" />
 
     <TextView
         android:id="@+id/textView16"
@@ -199,7 +199,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginBottom="13dp"
         android:background="@drawable/lugar_livre"
-        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintBottom_toBottomOf="@+id/continuar_tela_lugares"
         app:layout_constraintStart_toEndOf="@+id/dsc_reservado"
         tools:ignore="TouchTargetSizeCheck" />
 
@@ -210,7 +210,7 @@
         android:layout_marginStart="13dp"
         android:layout_marginBottom="18dp"
         android:text="Livre"
-        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintBottom_toBottomOf="@+id/continuar_tela_lugares"
         app:layout_constraintStart_toEndOf="@+id/btn_livre" />
 
     <Button
@@ -220,7 +220,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginBottom="13dp"
         android:background="@drawable/lugar_reservado"
-        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintBottom_toBottomOf="@+id/continuar_tela_lugares"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.451"
         app:layout_constraintStart_toEndOf="@+id/dsc_selecionado"
@@ -233,7 +233,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginBottom="19dp"
         android:text="Reservado"
-        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintBottom_toBottomOf="@+id/continuar_tela_lugares"
         app:layout_constraintStart_toEndOf="@+id/btn_reservado" />
 
     <Button
@@ -243,8 +243,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginBottom="13dp"
         android:background="@drawable/lugar_selecionado"
-        app:layout_constraintBottom_toBottomOf="@+id/Layout"
-        app:layout_constraintStart_toStartOf="@+id/Layout" />
+        app:layout_constraintBottom_toBottomOf="@+id/continuar_tela_lugares"
+        app:layout_constraintStart_toStartOf="@+id/continuar_tela_lugares" />
 
     <TextView
         android:id="@+id/dsc_selecionado"
@@ -253,7 +253,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginBottom="18dp"
         android:text="Selecionado"
-        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintBottom_toBottomOf="@+id/continuar_tela_lugares"
         app:layout_constraintStart_toEndOf="@+id/btn_selecionado" />
 
     <Button
@@ -655,7 +655,7 @@
         android:layout_marginBottom="8dp"
         android:background="@drawable/lugar_livre"
         app:layout_constraintBottom_toTopOf="@+id/F8"
-        app:layout_constraintEnd_toEndOf="@+id/Layout"
+        app:layout_constraintEnd_toEndOf="@+id/continuar_tela_lugares"
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
@@ -664,7 +664,7 @@
         android:layout_height="25dp"
         android:layout_marginBottom="122dp"
         android:background="@drawable/lugar_livre"
-        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintBottom_toBottomOf="@+id/continuar_tela_lugares"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.138"
         app:layout_constraintStart_toStartOf="parent"
@@ -676,7 +676,7 @@
         android:layout_height="25dp"
         android:layout_marginBottom="122dp"
         android:background="@drawable/lugar_livre"
-        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintBottom_toBottomOf="@+id/continuar_tela_lugares"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.233"
         app:layout_constraintStart_toStartOf="parent"
@@ -688,7 +688,7 @@
         android:layout_height="25dp"
         android:layout_marginBottom="122dp"
         android:background="@drawable/lugar_livre"
-        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintBottom_toBottomOf="@+id/continuar_tela_lugares"
         app:layout_constraintEnd_toEndOf="@+id/E3"
         tools:ignore="TouchTargetSizeCheck" />
 
@@ -698,7 +698,7 @@
         android:layout_height="25dp"
         android:layout_marginBottom="122dp"
         android:background="@drawable/lugar_livre"
-        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintBottom_toBottomOf="@+id/continuar_tela_lugares"
         app:layout_constraintEnd_toEndOf="@+id/E4"
         tools:ignore="TouchTargetSizeCheck" />
 
@@ -708,7 +708,7 @@
         android:layout_height="25dp"
         android:layout_marginBottom="122dp"
         android:background="@drawable/lugar_livre"
-        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintBottom_toBottomOf="@+id/continuar_tela_lugares"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.567"
         app:layout_constraintStart_toStartOf="parent"
@@ -721,7 +721,7 @@
         android:layout_marginEnd="11dp"
         android:layout_marginBottom="122dp"
         android:background="@drawable/lugar_livre"
-        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintBottom_toBottomOf="@+id/continuar_tela_lugares"
         app:layout_constraintEnd_toStartOf="@+id/F7"
         tools:ignore="TouchTargetSizeCheck" />
 
@@ -732,7 +732,7 @@
         android:layout_marginEnd="11dp"
         android:layout_marginBottom="122dp"
         android:background="@drawable/lugar_livre"
-        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintBottom_toBottomOf="@+id/continuar_tela_lugares"
         app:layout_constraintEnd_toStartOf="@+id/F8"
         tools:ignore="TouchTargetSizeCheck" />
 
@@ -743,8 +743,8 @@
         android:layout_marginEnd="38dp"
         android:layout_marginBottom="122dp"
         android:background="@drawable/lugar_livre"
-        app:layout_constraintBottom_toBottomOf="@+id/Layout"
-        app:layout_constraintEnd_toEndOf="@+id/Layout"
+        app:layout_constraintBottom_toBottomOf="@+id/continuar_tela_lugares"
+        app:layout_constraintEnd_toEndOf="@+id/continuar_tela_lugares"
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
@@ -757,7 +757,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Layout"
+        app:layout_constraintTop_toBottomOf="@+id/continuar_tela_lugares"
         app:layout_constraintVertical_bias="0.035" />
 
     <ImageView
@@ -765,7 +765,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="61dp"
-        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintBottom_toBottomOf="@+id/continuar_tela_lugares"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/tela" />
