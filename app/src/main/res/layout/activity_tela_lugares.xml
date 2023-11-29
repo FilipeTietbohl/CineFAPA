@@ -6,4 +6,768 @@
     android:layout_height="match_parent"
     tools:context=".TelaLugares">
 
+    <TextView
+        android:id="@+id/Layout"
+        android:layout_width="358dp"
+        android:layout_height="479dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/layout_resumo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:layout_marginBottom="20dp"
+        android:text="1"
+        app:layout_constraintBottom_toTopOf="@+id/A1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="2"
+        app:layout_constraintBottom_toBottomOf="@+id/textView48"
+        app:layout_constraintStart_toStartOf="@+id/textView48" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="3"
+        app:layout_constraintBottom_toBottomOf="@+id/textView35"
+        app:layout_constraintStart_toEndOf="@+id/textView35" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:text="4"
+        app:layout_constraintBottom_toBottomOf="@+id/textView37"
+        app:layout_constraintStart_toEndOf="@+id/textView37" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:text="5"
+        app:layout_constraintBottom_toBottomOf="@+id/textView41"
+        app:layout_constraintEnd_toStartOf="@+id/textView41" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:text="6"
+        app:layout_constraintBottom_toBottomOf="@+id/textView14"
+        app:layout_constraintEnd_toStartOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:text="7"
+        app:layout_constraintBottom_toBottomOf="@+id/textView38"
+        app:layout_constraintEnd_toStartOf="@+id/textView38" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="20dp"
+        android:text="8"
+        app:layout_constraintBottom_toTopOf="@+id/A8"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        app:layout_constraintStart_toStartOf="@+id/textView50"
+        app:layout_constraintTop_toTopOf="@+id/A1" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B"
+        app:layout_constraintStart_toStartOf="@+id/textView45"
+        app:layout_constraintTop_toTopOf="@+id/B1" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C"
+        app:layout_constraintStart_toStartOf="@+id/textView42"
+        app:layout_constraintTop_toTopOf="@+id/C1" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D"
+        app:layout_constraintStart_toStartOf="@+id/textView44"
+        app:layout_constraintTop_toTopOf="@+id/D1" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E"
+        app:layout_constraintStart_toStartOf="@+id/textView43"
+        app:layout_constraintTop_toTopOf="@+id/E1" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="F"
+        app:layout_constraintStart_toStartOf="@+id/Layout"
+        app:layout_constraintTop_toTopOf="@+id/F1" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/app_name"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="SELECIONE SEU LUGAR"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/filme1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Layout" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01/12/2023 - 21H"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sala 1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <Button
+        android:id="@+id/btn_livre"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintStart_toEndOf="@+id/dsc_reservado"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/dsc_livre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="18dp"
+        android:text="Livre"
+        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintStart_toEndOf="@+id/btn_livre" />
+
+    <Button
+        android:id="@+id/btn_reservado"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/lugar_reservado"
+        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toEndOf="@+id/dsc_selecionado"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/dsc_reservado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="19dp"
+        android:text="Reservado"
+        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintStart_toEndOf="@+id/btn_reservado" />
+
+    <Button
+        android:id="@+id/btn_selecionado"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/lugar_selecionado"
+        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintStart_toStartOf="@+id/Layout" />
+
+    <TextView
+        android:id="@+id/dsc_selecionado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="18dp"
+        android:text="Selecionado"
+        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintStart_toEndOf="@+id/btn_selecionado" />
+
+    <Button
+        android:id="@+id/A1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toBottomOf="@+id/A2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/A2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toBottomOf="@+id/A3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/A3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/lugar_selecionado"
+        app:layout_constraintBottom_toBottomOf="@+id/A4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.328"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/A4"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/lugar_selecionado"
+        app:layout_constraintBottom_toBottomOf="@+id/A5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/A5"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toTopOf="@+id/B5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/A6"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toTopOf="@+id/B6"
+        app:layout_constraintEnd_toEndOf="@+id/B6"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/A7"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toTopOf="@+id/B7"
+        app:layout_constraintEnd_toEndOf="@+id/B7"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/A8"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toTopOf="@+id/B8"
+        app:layout_constraintEnd_toEndOf="@+id/B8"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/B1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toBottomOf="@+id/B2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/B2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toBottomOf="@+id/B3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/B3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/lugar_reservado"
+        app:layout_constraintBottom_toBottomOf="@+id/B4"
+        app:layout_constraintEnd_toEndOf="@+id/A3" />
+
+    <Button
+        android:id="@+id/B4"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/lugar_reservado"
+        app:layout_constraintBottom_toBottomOf="@+id/B5"
+        app:layout_constraintEnd_toEndOf="@+id/A4" />
+
+    <Button
+        android:id="@+id/B5"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_reservado"
+        app:layout_constraintBottom_toTopOf="@+id/C5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/B6"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_reservado"
+        app:layout_constraintBottom_toTopOf="@+id/C6"
+        app:layout_constraintEnd_toEndOf="@+id/C6" />
+
+    <Button
+        android:id="@+id/B7"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_reservado"
+        app:layout_constraintBottom_toTopOf="@+id/C7"
+        app:layout_constraintEnd_toEndOf="@+id/C7" />
+
+    <Button
+        android:id="@+id/B8"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_reservado"
+        app:layout_constraintBottom_toTopOf="@+id/C8"
+        app:layout_constraintEnd_toEndOf="@+id/C8" />
+
+    <Button
+        android:id="@+id/C1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toBottomOf="@+id/C2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/C2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toBottomOf="@+id/C3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/C3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toBottomOf="@+id/C4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.328"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/C4"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toBottomOf="@+id/C5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/C5"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/lugar_reservado"
+        app:layout_constraintBottom_toBottomOf="@+id/C6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/C6"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/lugar_reservado"
+        app:layout_constraintBottom_toBottomOf="@+id/C7"
+        app:layout_constraintEnd_toEndOf="@+id/D6" />
+
+    <Button
+        android:id="@+id/C7"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/lugar_reservado"
+        app:layout_constraintBottom_toBottomOf="@+id/C8"
+        app:layout_constraintEnd_toEndOf="@+id/D7" />
+
+    <Button
+        android:id="@+id/C8"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_reservado"
+        app:layout_constraintBottom_toTopOf="@+id/D8"
+        app:layout_constraintEnd_toEndOf="@+id/D8" />
+
+    <Button
+        android:id="@+id/D1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_reservado"
+        app:layout_constraintBottom_toTopOf="@+id/E1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/D2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_reservado"
+        app:layout_constraintBottom_toTopOf="@+id/E2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/D3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_reservado"
+        app:layout_constraintBottom_toTopOf="@+id/E3"
+        app:layout_constraintEnd_toEndOf="@+id/C3" />
+
+    <Button
+        android:id="@+id/D4"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_reservado"
+        app:layout_constraintBottom_toTopOf="@+id/E4"
+        app:layout_constraintEnd_toEndOf="@+id/C4" />
+
+    <Button
+        android:id="@+id/D5"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_reservado"
+        app:layout_constraintBottom_toTopOf="@+id/E5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/D6"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_reservado"
+        app:layout_constraintBottom_toTopOf="@+id/E6"
+        app:layout_constraintEnd_toEndOf="@+id/E6" />
+
+    <Button
+        android:id="@+id/D7"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_reservado"
+        app:layout_constraintBottom_toTopOf="@+id/E7"
+        app:layout_constraintEnd_toEndOf="@+id/E7" />
+
+    <Button
+        android:id="@+id/D8"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toTopOf="@+id/E8"
+        app:layout_constraintEnd_toEndOf="@+id/E8"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/E1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toTopOf="@+id/F1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/E2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toTopOf="@+id/F2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/E3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_reservado"
+        app:layout_constraintBottom_toTopOf="@+id/F3"
+        app:layout_constraintEnd_toEndOf="@+id/D3" />
+
+    <Button
+        android:id="@+id/E4"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_reservado"
+        app:layout_constraintBottom_toTopOf="@+id/F4"
+        app:layout_constraintEnd_toEndOf="@+id/D4" />
+
+    <Button
+        android:id="@+id/E5"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_reservado"
+        app:layout_constraintBottom_toTopOf="@+id/F5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/E6"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_reservado"
+        app:layout_constraintBottom_toTopOf="@+id/F6"
+        app:layout_constraintEnd_toStartOf="@+id/E7" />
+
+    <Button
+        android:id="@+id/E7"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_reservado"
+        app:layout_constraintBottom_toTopOf="@+id/F7"
+        app:layout_constraintEnd_toStartOf="@+id/E8" />
+
+    <Button
+        android:id="@+id/E8"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toTopOf="@+id/F8"
+        app:layout_constraintEnd_toEndOf="@+id/Layout"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/F1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="122dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/F2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="122dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/F3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="122dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintEnd_toEndOf="@+id/E3"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/F4"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="122dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintEnd_toEndOf="@+id/E4"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/F5"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="122dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/F6"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="122dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintEnd_toStartOf="@+id/F7"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/F7"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="122dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintEnd_toStartOf="@+id/F8"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/F8"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="122dp"
+        android:background="@drawable/lugar_livre"
+        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintEnd_toEndOf="@+id/Layout"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/tela_lugares_continuar"
+        android:layout_width="323dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/botao_comprar_tela_filmes"
+        android:text="CONTINUAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Layout"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="61dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/tela" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

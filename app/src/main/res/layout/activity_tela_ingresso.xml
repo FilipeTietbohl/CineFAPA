@@ -27,7 +27,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/Layout"
         android:layout_width="358dp"
         android:layout_height="479dp"
         android:layout_marginStart="16dp"
@@ -47,7 +47,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView14" />
+        app:layout_constraintTop_toTopOf="@+id/Layout" />
 
     <TextView
         android:id="@+id/textView16"
@@ -208,9 +208,9 @@
         android:layout_marginStart="157dp"
         android:layout_marginEnd="142dp"
         android:text="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
-        app:layout_constraintEnd_toEndOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="@+id/Layout"
         app:layout_constraintHorizontal_bias="0.513"
-        app:layout_constraintStart_toStartOf="@+id/textView14"
+        app:layout_constraintStart_toStartOf="@+id/Layout"
         app:layout_constraintTop_toBottomOf="@+id/textView28" />
 
     <Button
@@ -225,7 +225,7 @@
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/tela_lugares_continuar"
         android:layout_width="323dp"
         android:layout_height="48dp"
         android:background="@drawable/botao_comprar_tela_filmes"
@@ -233,7 +233,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/Layout"
         app:layout_constraintVertical_bias="0.234" />
 
     <Button
@@ -255,7 +255,7 @@
         android:layout_marginBottom="100dp"
         android:text="1"
         app:layout_constraintBottom_toBottomOf="@+id/button5"
-        app:layout_constraintStart_toStartOf="@+id/textView14" />
+        app:layout_constraintStart_toStartOf="@+id/Layout" />
 
     <TextView
         android:id="@+id/textView32"
@@ -263,7 +263,7 @@
         android:layout_height="wrap_content"
         android:text="R$ 48.00"
         android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView14"
+        app:layout_constraintBottom_toBottomOf="@+id/Layout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView29" />

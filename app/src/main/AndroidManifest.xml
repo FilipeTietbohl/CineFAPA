@@ -13,6 +13,9 @@
         android:theme="@style/Theme.CineFAPA"
         tools:targetApi="31">
         <activity
+            android:name=".TelaPagamento"
+            android:exported="false" />
+        <activity
             android:name=".TelaLugares"
             android:exported="false" />
         <activity
