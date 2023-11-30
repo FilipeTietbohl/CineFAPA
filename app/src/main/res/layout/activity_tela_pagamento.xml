@@ -140,7 +140,7 @@
         app:layout_constraintStart_toStartOf="@+id/textView49" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_pagar"
         android:layout_width="356dp"
         android:layout_height="54dp"
         android:layout_marginBottom="16dp"
